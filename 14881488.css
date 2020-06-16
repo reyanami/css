@@ -2,7 +2,8 @@
   background: url(https://sun9-27.userapi.com/c857120/v857120769/16d8a2/Tvvfhqx05d0.jpg)
     no-repeat bottom center;
   max-width: 100%;
-
+  display: flex;
+  justify-content: center;
   height: 900px;
   position: relative;
 
@@ -16,6 +17,7 @@
   font-size: 100%;
   vertical-align: baseline;
   background-size: cover;
+  width: 100%;
 }
 .kekw {
   display: flex;
@@ -84,18 +86,31 @@
 .main {
   padding: 100px;
 }
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .pepe1 {
   width: 100%;
   height: 100px;
   background: rgba(28, 54, 85, 0.2);
+  max-width: 1200px;
 
   justify-content: space-between;
+}
+.pepe11 {
+  max-width: 1200px;
+}
+.pepe111 {
+  max-width: 1200px;
 }
 .allrooms2 {
   list-style: none;
   overflow: hidden;
   margin: 0;
-  padding: 0;
+  padding: ;
   border: 0;
   outline: 0;
   font-size: 100%;

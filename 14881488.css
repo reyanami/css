@@ -39,12 +39,25 @@
   margin-top: -105px;
   z-index: 10;
 }
+.kaal {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .links {
   color: #fff;
   font-family: "Parisienne", Helvetica, Arial, sans-serif;
   text-decoration: none;
   list-style-type: none;
+  margin: 100px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.deep {
+  margin-right: 0px;
 }
 .pidor {
   width: 300px;
@@ -67,9 +80,11 @@
 .kek {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   padding-left: 0;
   list-style: none;
+  padding-left: 10px;
 }
 .login_btn {
   background-attachment: fixed;
@@ -128,7 +143,7 @@
 }
 
 .allrooms {
-  padding: 100px;
+  padding-top: 50px;
   display: block;
   margin: 0px;
   border: 0px;
@@ -202,6 +217,10 @@ li {
   color: #514d4d;
   text-decoration: none;
   color: black;
+  padding: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
 }
 .more_room_bnt {
   text-decoration: none;
@@ -229,8 +248,8 @@ li {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   margin: 50px;
 }
-.smth_in_footer {
-  max-width: 1200px;
+.kakal {
+  margin-bottom: 27px;
 }
 .about {
   color: white;

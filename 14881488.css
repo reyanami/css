@@ -1,7 +1,283 @@
-body {
-  margin: 0em;
-  color: rgb(255, 0, 0);
+.bigpic {
+  background: url(https://sun9-27.userapi.com/c857120/v857120769/16d8a2/Tvvfhqx05d0.jpg)
+    no-repeat bottom center;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 900px;
+  position: relative;
+
+  margin: 0px;
+  padding: 0px;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-size: cover;
+  width: 100%;
 }
-.pep {
-  color: violet;
+.kekw {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1300px;
+}
+.caption {
+  color: #fff;
+  font-family: "Parisienne", Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  font-weight: lighter;
+  margin: 0;
+  position: relative;
+  display: block;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  margin-top: -105px;
+  z-index: 10;
+}
+.kaal {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.links {
+  color: #fff;
+  font-family: "Parisienne", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.deep {
+  margin-right: 0px;
+}
+.pidor {
+  width: 300px;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 5;
+  margin: 15px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.bruh {
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+.kek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  list-style: none;
+  padding-left: 10px;
+}
+.login_btn {
+  background-attachment: fixed;
+  border: 2px solid white;
+  padding: 10px 30px 11px;
+}
+
+.login_btn:hover {
+  background-color: white;
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+.main {
+  padding: 100px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pepe1 {
+  width: 100%;
+  height: 100px;
+  background: rgba(28, 54, 85, 0.2);
+
+  justify-content: space-between;
+}
+.pepe11 {
+  max-width: 1100px;
+}
+
+.allrooms2 {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+
+  height: auto;
+  position: relative;
+}
+
+.allrooms {
+  padding-top: 50px;
+  display: block;
+  margin: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  background: 0px;
+  padding-bottom: 0px;
+}
+
+.ass {
+  text-decoration: none;
+  color: #666464;
+  margin-bottom: 5px;
+  line-height: 28px;
+}
+a {
+  text-decoration: none;
+}
+.h2 {
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #9d9d9d;
+}
+.pepes {
+  position: relative;
+  width: 100%;
+  width: calc(33% - 20px);
+  padding: 10px;
+}
+
+.footer {
+  width: 100%;
+  display: block;
+  padding-top: 100px;
+  background: #95badf;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+}
+/*li,
+img {
+  width: 100%;
+}
+li {
+  padding: 10px;
+}
+*/
+.price {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 15px 20px;
+  background: #ffffff;
+  color: #514d4d;
+  letter-spacing: 1px;
+}
+.opisanieroom {
+  border-bottom: 1px solid #f2f1f1;
+  border-left: 1px solid #f2f1f1;
+  border-right: 1px solid #f2f1f1;
+  color: #514d4d;
+  text-decoration: none;
+  color: black;
+  padding: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.more_room_bnt {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #afcbe6;
+}
+.morerooms:hover {
+  color: #a0c3e5;
+  border: 2px solid #a0c3e5;
+}
+
+.suka {
+  display: flex;
+  justify-content: center;
+}
+.morerooms {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  flex-direction: row;
+  width: 300px;
+  padding: 20px 1px;
+  border: 2px solid #bfd9f1;
+  color: #bfd9f1;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  margin: 50px;
+}
+.kakal {
+  margin-bottom: 27px;
+}
+.about {
+  color: white;
+  font-family: "Parisienne", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.copyright {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 60px;
+  color: #fff;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  border-top: 1px solid #82abd4;
+}
+
+@media (max-width: 800px) {
+  .pepes {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 600px) {
+  .bigpic {
+    height: 800px;
+  }
+  .pepes {
+    width: calc(100% - 20px);
+  }
 }
